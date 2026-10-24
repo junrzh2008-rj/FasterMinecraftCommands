@@ -1,0 +1,19 @@
+﻿Compiled from "ButtonWidget.java"
+public class net.minecraft.client.gui.widget.ButtonWidget extends net.minecraft.client.gui.widget.PressableWidget {
+  public static final int DEFAULT_WIDTH_SMALL;
+  public static final int DEFAULT_WIDTH;
+  public static final int field_49479;
+  public static final int DEFAULT_HEIGHT;
+  public static final int field_46856;
+  protected static final net.minecraft.client.gui.widget.ButtonWidget$NarrationSupplier DEFAULT_NARRATION_SUPPLIER;
+  protected final net.minecraft.client.gui.widget.ButtonWidget$PressAction onPress;
+  protected final net.minecraft.client.gui.widget.ButtonWidget$NarrationSupplier narrationSupplier;
+  public static net.minecraft.client.gui.widget.ButtonWidget$Builder builder(net.minecraft.text.Text, net.minecraft.client.gui.widget.ButtonWidget$PressAction);
+  protected net.minecraft.client.gui.widget.ButtonWidget(int, int, int, int, net.minecraft.text.Text, net.minecraft.client.gui.widget.ButtonWidget$PressAction, net.minecraft.client.gui.widget.ButtonWidget$NarrationSupplier);
+  public void onPress();
+  protected net.minecraft.text.MutableText getNarrationMessage();
+  public void appendClickableNarrations(net.minecraft.client.gui.screen.narration.NarrationMessageBuilder);
+  private net.minecraft.text.MutableText method_46428();
+  private static net.minecraft.text.MutableText method_46429(java.util.function.Supplier);
+  static {};
+}

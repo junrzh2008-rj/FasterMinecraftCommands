@@ -1,0 +1,86 @@
+plugins {
+    id 'fabric-loom' version "${loom_version}"
+    id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+    archivesName = project.archives_base_name
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+    testImplementation platform('org.junit:junit-bom:5.11.4')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+processResources {
+    inputs.property "version", project.version
+
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = 21
+    // Sources and resources contain Chinese text; never depend on the platform default.
+    it.options.encoding = 'UTF-8'
+}
+
+java {
+    withSourcesJar()
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        events "passed", "skipped", "failed"
+        showStandardStreams = true
+    }
+}
+
+jar {
+    from("LICENSE") {
+        rename { "${it}_${project.base.archivesName.get()}" }
+    }
+}
+
+loom {
+    runs {
+        // Scripted in-game UI walkthrough, see src/main/java/com/fmcc/selftest/SelfTest.java.
+        clientSelfTest {
+            client()
+            name "FMCC Self Test"
+            runDir "run-selftest"
+            ideConfigGenerated false
+            property "fmcc.selftest", "true"
+            property "fmcc.config.path", file("run-selftest/fmcc-config.json").absolutePath
+        }
+        // Same walkthrough but straight into a singleplayer world, so the real chat/command send
+        // path is exercised with a player present.
+        clientSelfTestWorld {
+            client()
+            name "FMCC Self Test (in world)"
+            runDir "run-selftest"
+            ideConfigGenerated false
+            property "fmcc.selftest", "true"
+            property "fmcc.selftest.world", "true"
+            property "fmcc.config.path", file("run-selftest/fmcc-config.json").absolutePath
+            programArgs "--quickPlaySingleplayer", "fmcc-test"
+        }
+    }
+}

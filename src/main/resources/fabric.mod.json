@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "fmcc",
+  "version": "${version}",
+  "name": "FasterMinecraftCommands",
+  "description": "Quickly send commands and chat messages from a modern side menu. Press the hotkey (Tab by default) to open it.",
+  "authors": [
+    "FMCC"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/fmcc/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.fmcc.FmccClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

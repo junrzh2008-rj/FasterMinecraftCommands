@@ -1,0 +1,712 @@
+{
+  "selftest": true,
+  "mod": "FasterMinecraftCommands (FMCC)",
+  "result": "PASS",
+  "startedAt": "2026-10-24T18:44:16.198035500+08:00",
+  "finishedAt": "2026-10-24T18:45:19.426645700+08:00",
+  "durationTicks": 404,
+  "environment": {
+    "minecraftVersion": "1.21.8",
+    "versionType": "Fabric",
+    "runDirectory": "D:\\DeepSeek-Harness\\FMCC\\run-compat",
+    "configFile": "D:\\DeepSeek-Harness\\FMCC\\run-compat\\fmcc-config.json",
+    "configEntriesAtStart": 0,
+    "configEntriesNow": 0,
+    "playerInWorld": false,
+    "currentScreen": "FmccScreen",
+    "screenWidth": 640,
+    "screenHeight": 360
+  },
+  "summary": {
+    "total": 53,
+    "passed": 50,
+    "failed": 0,
+    "skipped": 3,
+    "plannedSteps": 53
+  },
+  "aborted": false,
+  "failedStep": "",
+  "steps": [
+    {
+      "id": "wait-for-client",
+      "status": "pass",
+      "message": "client ready: screen=class_442, inWorld=false, baselineEntries=0, config=D:\\DeepSeek-Harness\\FMCC\\run-compat\\fmcc-config.json",
+      "tick": 164
+    },
+    {
+      "id": "wait-for-splash-fade",
+      "status": "pass",
+      "message": "splash overlay gone; viewport settled for an extra 20 ticks",
+      "tick": 189
+    },
+    {
+      "id": "assert-hotkey-binding",
+      "status": "pass",
+      "message": "hotkey ok: translationKey=key.fmcc.open, category=category.fmcc, default=Tab (KEYSYM code 258), boundToTab=true",
+      "tick": 193
+    },
+    {
+      "id": "hotkey-opens-menu",
+      "status": "skipped",
+      "message": "title-screen environment: the FMCC menu opens only from the in-game HUD (currentScreen == null), so the Tab end-to-end check runs in the in-world run (runClientSelfTestWorld)",
+      "tick": 197
+    },
+    {
+      "id": "hotkey-closes-menu",
+      "status": "skipped",
+      "message": "title-screen environment: the menu is not opened by the hotkey here, so the press-again-to-close path is covered by runClientSelfTestWorld",
+      "tick": 201
+    },
+    {
+      "id": "esc-closes-menu",
+      "status": "pass",
+      "message": "ESC closed the menu: currentScreen=class_442 (client restored class_442) after 1 ESC attempt(s), playerInWorld=false",
+      "tick": 207
+    },
+    {
+      "id": "open-main-menu",
+      "status": "pass",
+      "message": "opened FmccScreen via client.setScreen(new FmccScreen())",
+      "tick": 211
+    },
+    {
+      "id": "wait-for-main-menu",
+      "status": "pass",
+      "message": "main menu open with 0 entries, scrollOffset=0",
+      "tick": 215
+    },
+    {
+      "id": "assert-empty-geometry",
+      "status": "pass",
+      "message": "empty state: '+' right edge=620, contentRight=620, y=50, size=26x26",
+      "tick": 219
+    },
+    {
+      "id": "screenshot-main-empty",
+      "status": "pass",
+      "message": "ok",
+      "tick": 223
+    },
+    {
+      "id": "click-add-button-for-cancel",
+      "status": "pass",
+      "message": "clicked add (cancel path) at (607,63), label='+'",
+      "tick": 227
+    },
+    {
+      "id": "wait-for-add-screen",
+      "status": "pass",
+      "message": "AddEntryScreen open, title field=present",
+      "tick": 231
+    },
+    {
+      "id": "click-cancel",
+      "status": "pass",
+      "message": "clicked Cancel; store size before returning=0",
+      "tick": 235
+    },
+    {
+      "id": "wait-for-menu-after-cancel",
+      "status": "pass",
+      "message": "cancel returned to the menu and created nothing (store size=0)",
+      "tick": 239
+    },
+    {
+      "id": "screenshot-main-after-cancel",
+      "status": "pass",
+      "message": "ok",
+      "tick": 243
+    },
+    {
+      "id": "click-add-button",
+      "status": "pass",
+      "message": "clicked add at (607,63), label='+'",
+      "tick": 247
+    },
+    {
+      "id": "wait-for-add-screen-a",
+      "status": "pass",
+      "message": "AddEntryScreen open, title field=present",
+      "tick": 251
+    },
+    {
+      "id": "type-title-a",
+      "status": "pass",
+      "message": "typed title 'FMCC测Ac6' (8 code points)",
+      "tick": 255
+    },
+    {
+      "id": "click-create-a",
+      "status": "pass",
+      "message": "clicked Create (active=true), store size now=1",
+      "tick": 259
+    },
+    {
+      "id": "wait-for-menu-with-entry-a",
+      "status": "pass",
+      "message": "entry A persisted: id=ec6a55cb-00a1-4164-a3f0-f451fd397a27, title='FMCC测Ac6'",
+      "tick": 263
+    },
+    {
+      "id": "screenshot-main-one-entry",
+      "status": "pass",
+      "message": "ok",
+      "tick": 267
+    },
+    {
+      "id": "click-add-button-b",
+      "status": "pass",
+      "message": "clicked add (second entry) at (607,95), label='+'",
+      "tick": 271
+    },
+    {
+      "id": "wait-for-add-screen-b",
+      "status": "pass",
+      "message": "AddEntryScreen open, title field=present",
+      "tick": 275
+    },
+    {
+      "id": "type-title-b",
+      "status": "pass",
+      "message": "typed title 'FMCC测Bc6' (8 code points)",
+      "tick": 279
+    },
+    {
+      "id": "click-create-b",
+      "status": "pass",
+      "message": "clicked Create (active=true), store size now=2",
+      "tick": 283
+    },
+    {
+      "id": "wait-for-menu-with-entry-b",
+      "status": "pass",
+      "message": "entry B persisted: id=2be18945-91b8-4bbb-b3bc-6bdab81a2d6e, title='FMCC测Bc6'",
+      "tick": 287
+    },
+    {
+      "id": "screenshot-main-two-entries",
+      "status": "pass",
+      "message": "ok",
+      "tick": 291
+    },
+    {
+      "id": "assert-row-geometry",
+      "status": "pass",
+      "message": "geometry ok: 2 rows, contentWidth=220, expectedSendWidth=147, add right=620",
+      "tick": 295
+    },
+    {
+      "id": "delete-entry-b",
+      "status": "pass",
+      "message": "clicked '-' on row 'FMCC测Bc6' (store size before=1)",
+      "tick": 299
+    },
+    {
+      "id": "wait-for-entry-b-deleted",
+      "status": "pass",
+      "message": "entry B deleted and persisted; remaining entries=[FMCC测Ac6]",
+      "tick": 303
+    },
+    {
+      "id": "click-configure-a",
+      "status": "pass",
+      "message": "clicked Configure on row 'FMCC测Ac6'",
+      "tick": 307
+    },
+    {
+      "id": "wait-for-config-screen",
+      "status": "pass",
+      "message": "EntryConfigScreen open for 'FMCC测Ac6', texts=0",
+      "tick": 311
+    },
+    {
+      "id": "click-config-add-1",
+      "status": "pass",
+      "message": "clicked '+' in config screen; texts before=1",
+      "tick": 315
+    },
+    {
+      "id": "wait-for-1-text",
+      "status": "pass",
+      "message": "config screen now has 1 text field",
+      "tick": 319
+    },
+    {
+      "id": "click-config-add-2",
+      "status": "pass",
+      "message": "clicked '+' in config screen; texts before=2",
+      "tick": 323
+    },
+    {
+      "id": "wait-for-2-texts",
+      "status": "pass",
+      "message": "config screen now has 2 text fields",
+      "tick": 327
+    },
+    {
+      "id": "type-texts",
+      "status": "pass",
+      "message": "typed '/seed' and 'hello fmcc' into the two fields",
+      "tick": 331
+    },
+    {
+      "id": "wait-for-text-values",
+      "status": "pass",
+      "message": "model texts persisted in order: [/seed, hello fmcc]",
+      "tick": 335
+    },
+    {
+      "id": "screenshot-config-two-texts",
+      "status": "pass",
+      "message": "ok",
+      "tick": 339
+    },
+    {
+      "id": "delete-second-text",
+      "status": "pass",
+      "message": "clicked '-' on the second text row",
+      "tick": 343
+    },
+    {
+      "id": "wait-for-text-shrink",
+      "status": "pass",
+      "message": "text deleted and persisted, remaining texts=[/seed]",
+      "tick": 347
+    },
+    {
+      "id": "screenshot-config-after-delete",
+      "status": "pass",
+      "message": "ok",
+      "tick": 351
+    },
+    {
+      "id": "click-back",
+      "status": "pass",
+      "message": "clicked Back",
+      "tick": 355
+    },
+    {
+      "id": "wait-for-menu-return",
+      "status": "pass",
+      "message": "returned to the menu; entry A texts=[/seed]",
+      "tick": 359
+    },
+    {
+      "id": "click-send-a",
+      "status": "pass",
+      "message": "clicked send on 'FMCC测Ac6' with texts=[/seed], queue.sentCount before=0, playerInWorld=false",
+      "tick": 363
+    },
+    {
+      "id": "verify-send-queued",
+      "status": "skipped",
+      "message": "no player in a world (title screen): ChatDelivery cannot send, so the message-queue assertion was skipped - the empty-text / not-in-world path was exercised instead",
+      "tick": 367
+    },
+    {
+      "id": "wait-queue-drain",
+      "status": "pass",
+      "message": "title-screen environment: no queue to drain (ChatDelivery cannot send); covered by the in-world run",
+      "tick": 371
+    },
+    {
+      "id": "screenshot-after-send",
+      "status": "pass",
+      "message": "screenshot 'main-after-send' 20 ticks after the send click (title-screen not-in-world toast)",
+      "tick": 383
+    },
+    {
+      "id": "delete-entry-a",
+      "status": "pass",
+      "message": "clicked '-' on row 'FMCC测Ac6' (store size before=0)",
+      "tick": 387
+    },
+    {
+      "id": "wait-for-entry-a-deleted",
+      "status": "pass",
+      "message": "entry A deleted; store back to 0 entries",
+      "tick": 391
+    },
+    {
+      "id": "screenshot-main-empty-after-delete",
+      "status": "pass",
+      "message": "ok",
+      "tick": 395
+    },
+    {
+      "id": "verify-store-file",
+      "status": "pass",
+      "message": "persisted config D:\\DeepSeek-Harness\\FMCC\\run-compat\\fmcc-config.json reloads with 0 entries (no self-test leftovers)",
+      "tick": 399
+    },
+    {
+      "id": "scenario-complete",
+      "status": "pass",
+      "message": "all scenario steps passed; writing report and stopping the client",
+      "tick": 403
+    }
+  ],
+  "geometry": [
+    {
+      "id": "hotkey-translation-key",
+      "ok": true,
+      "expected": "key.fmcc.open",
+      "actual": "key.fmcc.open"
+    },
+    {
+      "id": "hotkey-category",
+      "ok": true,
+      "expected": "category.fmcc",
+      "actual": "category.fmcc"
+    },
+    {
+      "id": "hotkey-default-key-present",
+      "ok": true,
+      "expected": "non-null",
+      "actual": "null"
+    },
+    {
+      "id": "hotkey-default-key-type",
+      "ok": true,
+      "expected": "KEYSYM",
+      "actual": "KEYSYM"
+    },
+    {
+      "id": "hotkey-default-key-code",
+      "ok": true,
+      "expected": "GLFW_KEY_TAB=258",
+      "actual": "258"
+    },
+    {
+      "id": "hotkey-default-key-name",
+      "ok": true,
+      "expected": "key.keyboard.tab",
+      "actual": "key.keyboard.tab"
+    },
+    {
+      "id": "hotkey-bound-to-tab",
+      "ok": true,
+      "expected": "bound to Tab",
+      "actual": "matchesKey(GLFW_KEY_TAB,0)=true"
+    },
+    {
+      "id": "empty-add-button-present",
+      "ok": true,
+      "expected": "1 '+' button",
+      "actual": "found"
+    },
+    {
+      "id": "empty-add-button-right-aligned",
+      "ok": true,
+      "expected": "right=620",
+      "actual": "right=620"
+    },
+    {
+      "id": "empty-add-button-size",
+      "ok": true,
+      "expected": "26x26",
+      "actual": "26x26"
+    },
+    {
+      "id": "empty-add-button-y",
+      "ok": true,
+      "expected": "y=50",
+      "actual": "y=50"
+    },
+    {
+      "id": "entry-count-in-sync",
+      "ok": true,
+      "expected": "2",
+      "actual": "2"
+    },
+    {
+      "id": "add-button-right-aligned",
+      "ok": true,
+      "expected": "right=620",
+      "actual": "right=620"
+    },
+    {
+      "id": "add-button-size",
+      "ok": true,
+      "expected": "26x26",
+      "actual": "26x26"
+    },
+    {
+      "id": "add-button-y",
+      "ok": true,
+      "expected": "y=114",
+      "actual": "y=114"
+    },
+    {
+      "id": "row-0-send-x",
+      "ok": true,
+      "expected": "x=400",
+      "actual": "x=400"
+    },
+    {
+      "id": "row-0-send-y",
+      "ok": true,
+      "expected": "y=50",
+      "actual": "y=50"
+    },
+    {
+      "id": "row-0-two-thirds-width",
+      "ok": true,
+      "expected": "round(2/3*220)=147",
+      "actual": "147"
+    },
+    {
+      "id": "row-0-send-width",
+      "ok": true,
+      "expected": "width=147",
+      "actual": "width=147"
+    },
+    {
+      "id": "row-0-send-height",
+      "ok": true,
+      "expected": "height=26",
+      "actual": "height=26"
+    },
+    {
+      "id": "row-0-configure-x",
+      "ok": true,
+      "expected": "x=551",
+      "actual": "x=551"
+    },
+    {
+      "id": "row-0-configure-width",
+      "ok": true,
+      "expected": "width=39",
+      "actual": "width=39"
+    },
+    {
+      "id": "row-0-delete-x",
+      "ok": true,
+      "expected": "x=594",
+      "actual": "x=594"
+    },
+    {
+      "id": "row-0-delete-width",
+      "ok": true,
+      "expected": "width=26",
+      "actual": "width=26"
+    },
+    {
+      "id": "row-0-delete-right-aligned",
+      "ok": true,
+      "expected": "right=620",
+      "actual": "right=620"
+    },
+    {
+      "id": "row-0-button-order",
+      "ok": true,
+      "expected": "send < configure < delete",
+      "actual": "400 < 551 < 594"
+    },
+    {
+      "id": "row-0-buttons-no-overlap",
+      "ok": true,
+      "expected": "no horizontal overlap",
+      "actual": "send.right=547, configure.x=551, configure.right=590, delete.x=594"
+    },
+    {
+      "id": "row-1-send-x",
+      "ok": true,
+      "expected": "x=400",
+      "actual": "x=400"
+    },
+    {
+      "id": "row-1-send-y",
+      "ok": true,
+      "expected": "y=82",
+      "actual": "y=82"
+    },
+    {
+      "id": "row-1-two-thirds-width",
+      "ok": true,
+      "expected": "round(2/3*220)=147",
+      "actual": "147"
+    },
+    {
+      "id": "row-1-send-width",
+      "ok": true,
+      "expected": "width=147",
+      "actual": "width=147"
+    },
+    {
+      "id": "row-1-send-height",
+      "ok": true,
+      "expected": "height=26",
+      "actual": "height=26"
+    },
+    {
+      "id": "row-1-configure-x",
+      "ok": true,
+      "expected": "x=551",
+      "actual": "x=551"
+    },
+    {
+      "id": "row-1-configure-width",
+      "ok": true,
+      "expected": "width=39",
+      "actual": "width=39"
+    },
+    {
+      "id": "row-1-delete-x",
+      "ok": true,
+      "expected": "x=594",
+      "actual": "x=594"
+    },
+    {
+      "id": "row-1-delete-width",
+      "ok": true,
+      "expected": "width=26",
+      "actual": "width=26"
+    },
+    {
+      "id": "row-1-delete-right-aligned",
+      "ok": true,
+      "expected": "right=620",
+      "actual": "right=620"
+    },
+    {
+      "id": "row-1-button-order",
+      "ok": true,
+      "expected": "send < configure < delete",
+      "actual": "400 < 551 < 594"
+    },
+    {
+      "id": "row-1-buttons-no-overlap",
+      "ok": true,
+      "expected": "no horizontal overlap",
+      "actual": "send.right=547, configure.x=551, configure.right=590, delete.x=594"
+    },
+    {
+      "id": "row-1-row-stride",
+      "ok": true,
+      "expected": "stride=32",
+      "actual": "gap=32"
+    },
+    {
+      "id": "row-1-rows-no-overlap",
+      "ok": true,
+      "expected": "previous bottom <= current top",
+      "actual": "76 <= 82"
+    },
+    {
+      "id": "add-button-below-last-row",
+      "ok": true,
+      "expected": "y>=108",
+      "actual": "y=114"
+    }
+  ],
+  "screenshots": [
+    {
+      "label": "main-empty",
+      "tick": 232,
+      "message": "已将截图保存为2026-10-24_18.45.10.png",
+      "file": "D:\\DeepSeek-Harness\\FMCC\\run-compat\\screenshots\\2026-10-24_18.45.10.png",
+      "exists": true,
+      "sizeBytes": 827321,
+      "suspectSmallFrame": false
+    },
+    {
+      "label": "main-after-cancel",
+      "tick": 251,
+      "message": "已将截图保存为2026-10-24_18.45.11.png",
+      "file": "D:\\DeepSeek-Harness\\FMCC\\run-compat\\screenshots\\2026-10-24_18.45.11.png",
+      "exists": true,
+      "sizeBytes": 831554,
+      "suspectSmallFrame": false
+    },
+    {
+      "label": "main-one-entry",
+      "tick": 276,
+      "message": "已将截图保存为2026-10-24_18.45.12.png",
+      "file": "D:\\DeepSeek-Harness\\FMCC\\run-compat\\screenshots\\2026-10-24_18.45.12.png",
+      "exists": true,
+      "sizeBytes": 828022,
+      "suspectSmallFrame": false
+    },
+    {
+      "label": "main-two-entries",
+      "tick": 299,
+      "message": "已将截图保存为2026-10-24_18.45.13.png",
+      "file": "D:\\DeepSeek-Harness\\FMCC\\run-compat\\screenshots\\2026-10-24_18.45.13.png",
+      "exists": true,
+      "sizeBytes": 829396,
+      "suspectSmallFrame": false
+    },
+    {
+      "label": "config-two-texts",
+      "tick": 348,
+      "message": "已将截图保存为2026-10-24_18.45.16.png",
+      "file": "D:\\DeepSeek-Harness\\FMCC\\run-compat\\screenshots\\2026-10-24_18.45.16.png",
+      "exists": true,
+      "sizeBytes": 822212,
+      "suspectSmallFrame": false
+    },
+    {
+      "label": "config-after-delete",
+      "tick": 359,
+      "message": "已将截图保存为2026-10-24_18.45.16_2.png",
+      "file": "D:\\DeepSeek-Harness\\FMCC\\run-compat\\screenshots\\2026-10-24_18.45.16_2.png",
+      "exists": true,
+      "sizeBytes": 817802,
+      "suspectSmallFrame": false
+    },
+    {
+      "label": "main-after-send",
+      "tick": 391,
+      "message": "已将截图保存为2026-10-24_18.45.18.png",
+      "file": "D:\\DeepSeek-Harness\\FMCC\\run-compat\\screenshots\\2026-10-24_18.45.18.png",
+      "exists": true,
+      "sizeBytes": 802333,
+      "suspectSmallFrame": false
+    },
+    {
+      "label": "main-empty-after-delete",
+      "tick": 403,
+      "message": "已将截图保存为2026-10-24_18.45.19.png",
+      "file": "D:\\DeepSeek-Harness\\FMCC\\run-compat\\screenshots\\2026-10-24_18.45.19.png",
+      "exists": true,
+      "sizeBytes": 799517,
+      "suspectSmallFrame": false
+    }
+  ],
+  "screenshotsDirectory": "D:\\DeepSeek-Harness\\FMCC\\run-compat\\screenshots",
+  "screenshotsOnDisk": [
+    "2026-10-24_00.44.20.png (380838 bytes)",
+    "2026-10-24_00.44.21.png (378674 bytes)",
+    "2026-10-24_00.44.22.png (379312 bytes)",
+    "2026-10-24_00.44.23.png (376284 bytes)",
+    "2026-10-24_00.44.26.png (371715 bytes)",
+    "2026-10-24_00.44.26_2.png (366711 bytes)",
+    "2026-10-24_00.44.28.png (366598 bytes)",
+    "2026-10-24_00.44.29.png (362088 bytes)",
+    "2026-10-24_00.50.56.png (216460 bytes)",
+    "2026-10-24_00.50.57.png (215727 bytes)",
+    "2026-10-24_00.50.59.png (217847 bytes)",
+    "2026-10-24_00.51.00.png (220357 bytes)",
+    "2026-10-24_00.51.02.png (221263 bytes)",
+    "2026-10-24_00.51.03.png (219039 bytes)",
+    "2026-10-24_00.51.04.png (218305 bytes)",
+    "2026-10-24_00.51.05.png (216412 bytes)",
+    "2026-10-24_01.01.43.png (385268 bytes)",
+    "2026-10-24_01.01.44.png (380071 bytes)",
+    "2026-10-24_01.01.45.png (380157 bytes)",
+    "2026-10-24_01.01.46.png (381614 bytes)",
+    "2026-10-24_01.01.49.png (373257 bytes)",
+    "2026-10-24_01.01.49_2.png (370547 bytes)",
+    "2026-10-24_01.01.51.png (368539 bytes)",
+    "2026-10-24_01.01.52.png (366014 bytes)",
+    "2026-10-24_18.45.10.png (827321 bytes)",
+    "2026-10-24_18.45.11.png (831554 bytes)",
+    "2026-10-24_18.45.12.png (828022 bytes)",
+    "2026-10-24_18.45.13.png (829396 bytes)",
+    "2026-10-24_18.45.16.png (822212 bytes)",
+    "2026-10-24_18.45.16_2.png (817802 bytes)",
+    "2026-10-24_18.45.18.png (802333 bytes)",
+    "2026-10-24_18.45.19.png (799517 bytes)"
+  ]
+}

@@ -1,0 +1,799 @@
+[18:43:41] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.19.3
+[18:43:42] [ForkJoinPool-1-worker-7/WARN]: Mod ram-leak-fix uses the version 1.0ALPHA which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0ALPHA'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[18:43:42] [main/WARN]: Warnings were found!
+ - 模组 'BetterF3' (betterf3) 15.0.0 建议安装 modmenu 的 13.0.0 及以上版本，但没有安装它！
+	 - 为了最佳体验，您应该安装 modmenu 的 13.0.0 及以上版本。
+ - 模组 'CommandKeys' (commandkeys) 2.4.0+1.21.8 建议安装 modmenu 的 15.0.0-beta.1 及以上版本，但没有安装它！
+	 - 为了最佳体验，您应该安装 modmenu 的 15.0.0-beta.1 及以上版本。
+[18:43:42] [main/INFO]: Loading 128 mods:
+	- appleskin 3.0.6+mc1.21.6
+	- architectury 17.0.8
+	- auto_water_fill_mod_1784218328 1.0.0
+	- axiom 5.4.2
+	   |-- com_moulberry_axiomclientapi 1.0.68
+	   |-- com_moulberry_mixinconstraints 1.0.9
+	   \-- lattice 1.3.0
+	- betterf3 15.0.0
+	- blur 6.3.1
+	   \-- midnightlib 1.9.3
+	- carpet 1.4.177+v250630
+	- carpet-ams-addition 26.2
+	   |-- annotationtoolbox 0.3
+	   \-- top_1024byteeeee_tiny_yaml 1.0.3
+	- carpet-org-addition 1.41.6
+	- carpet-tis-addition 1.80.0
+	   \-- conditional-mixin 0.6.4
+	- carpetgui 1.3.5-hotfix
+	- catalogue 1.12.2
+	- cloth-config 19.0.147
+	   \-- cloth-basic-math 0.6.1
+	- commandkeys 2.4.0+1.21.8
+	- continuity 3.0.1-beta.1+1.21.6
+	- entityculling 1.10.2
+	   |-- transition 1.0.19
+	   \-- trender 1.0.13
+	- fabric-api 0.136.1+1.21.8
+	   |-- fabric-api-base 0.5.0+cd8c0daa2c
+	   |-- fabric-api-lookup-api-v1 1.6.101+946bf4c32c
+	   |-- fabric-biome-api-v1 16.1.0+c21d71cc2c
+	   |-- fabric-block-api-v1 1.1.3+946bf4c32c
+	   |-- fabric-block-view-api-v2 1.0.31+946bf4c32c
+	   |-- fabric-command-api-v2 2.3.1+52fff9ec2c
+	   |-- fabric-content-registries-v0 10.1.0+c75de69d2c
+	   |-- fabric-convention-tags-v1 2.1.41+7f945d5b2c
+	   |-- fabric-convention-tags-v2 2.15.6+eb5df52f2c
+	   |-- fabric-crash-report-info-v1 0.3.15+946bf4c32c
+	   |-- fabric-data-attachment-api-v1 1.8.14+97214db32c
+	   |-- fabric-data-generation-api-v1 23.2.8+2e1c6d322c
+	   |-- fabric-dimensions-v1 4.0.20+948fc79a2c
+	   |-- fabric-entity-events-v1 2.1.2+c9e472732c
+	   |-- fabric-events-interaction-v0 4.0.26+946bf4c32c
+	   |-- fabric-game-rule-api-v1 1.0.73+c64c9c5b2c
+	   |-- fabric-item-api-v1 11.5.0+02ce13f42c
+	   |-- fabric-item-group-api-v1 4.2.14+c5f9bbc12c
+	   |-- fabric-key-binding-api-v1 1.0.65+946bf4c32c
+	   |-- fabric-lifecycle-events-v1 2.6.4+db4dfd852c
+	   |-- fabric-loot-api-v2 3.0.56+3f89f5a52c
+	   |-- fabric-loot-api-v3 2.0.3+946bf4c32c
+	   |-- fabric-message-api-v1 6.1.2+946bf4c32c
+	   |-- fabric-model-loading-api-v1 5.2.8+946bf4c32c
+	   |-- fabric-networking-api-v1 5.1.0+57cb96dd2c
+	   |-- fabric-object-builder-api-v1 21.1.10+946bf4c32c
+	   |-- fabric-particles-v1 4.1.10+946bf4c32c
+	   |-- fabric-recipe-api-v1 8.1.17+946bf4c32c
+	   |-- fabric-registry-sync-v0 6.1.30+946bf4c32c
+	   |-- fabric-renderer-api-v1 7.0.5+208eed172c
+	   |-- fabric-renderer-indigo 4.0.5+946bf4c32c
+	   |-- fabric-rendering-fluids-v1 3.1.31+fa6cb72b2c
+	   |-- fabric-rendering-v1 12.6.0+486b7ff72c
+	   |-- fabric-resource-conditions-api-v1 5.0.25+98e6d6db2c
+	   |-- fabric-resource-loader-v0 3.1.12+020423442c
+	   |-- fabric-screen-api-v1 2.2.0+e0cb65d02c
+	   |-- fabric-screen-handler-api-v1 1.3.139+946bf4c32c
+	   |-- fabric-serialization-api-v1 1.0.0+fc0e5aba2c
+	   |-- fabric-sound-api-v1 1.0.42+946bf4c32c
+	   |-- fabric-tag-api-v1 1.2.2+946bf4c32c
+	   |-- fabric-transfer-api-v1 6.0.6+946bf4c32c
+	   \-- fabric-transitive-access-wideners-v1 6.5.0+c847ce762c
+	- fabric-language-kotlin 1.13.12+kotlin.2.4.0
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.4.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.4.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.4.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.4.0
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.33.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.11.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.11.0
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.11.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.11.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.11.0
+	- fabricloader 0.19.3
+	   \-- mixinextras 0.5.4
+	- fmcc 1.1.0
+	- gca_wrapper 1.0.6
+	   |-- gca 2.12.6-mc1.21.6+build.94
+	   \-- jep_jep 2.24
+	- gpumemleakfix 1.21.8-1.9
+	- imblocker 5.5.4
+	- inventoryprofilesnext 2.2.4
+	- iris 1.9.6+mc1.21.8
+	   |-- io_github_douira_glsl-transformer 3.0.0-pre3
+	   |-- org_anarres_jcpp 1.4.14
+	   \-- org_antlr_antlr4-runtime 4.13.1
+	- itemscroller 0.28.5
+	- jade 19.3.2+fabric
+	- java 21
+	- libipn 6.6.2
+	- litematica 0.23.6
+	- litematica-printer-wrapper 1.3-beta.3+260531+build.365
+	   \-- litematica-printer 1.3-beta.3+260531+build.365
+	        \-- com_belerweb_pinyin4j 2.5.1
+	- litematica_container_filler 0.10.2
+	- malilib 0.25.7
+	- menulogue 1.0.6
+	- minecraft 1.21.8
+	- owo 0.12.23+1.21.8
+	   |-- blue_endless_jankson 1.2.2
+	   |-- io_wispforest_endec 0.1.9
+	   |-- io_wispforest_endec_gson 0.1.6
+	   |-- io_wispforest_endec_jankson 0.1.6
+	   \-- io_wispforest_endec_netty 0.1.5
+	- patpat 1.2.3+1.21.8
+	   |-- fabric-permissions-api-v0 0.4.0
+	   \-- proxlib 0.2.4
+	- quickshulker 3.2.7-mc1.21.8-200-43d8da4-release
+	   \-- conditional-mixin 0.6.4
+	- ram-leak-fix 1.0ALPHA
+	- roughlyenoughitems 20.0.811
+	   \-- error_notifier 1.0.11
+	- sodium 0.7.3+mc1.21.8
+	- syncmatica_r 0.3.28
+	- tweakermore 3.30.0
+	   \-- conditional-mixin 0.6.4
+	- tweakeroo 0.25.6
+	- xaerominimap 26.1.0
+	   \-- xaerolib 1.1.15
+	- xaeroworldmap 1.40.16
+	   \-- xaerolib 1.1.15
+[18:43:43] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/D:/PCL%20%e6%ad%a3%e5%bc%8f%e7%89%88%202.12.8.1/.minecraft/libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[18:43:43] [main/INFO]: Compatibility level set to JAVA_21
+[18:43:44] [main/INFO]: Loading Mixin Plugin for Axiom/5.4.2
+[18:43:44] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
+[18:43:44] [main/WARN]: Reference map 'iris-fabric.refmap.json' for mixins.iris.fabric.json could not be read. If this is a development environment you can ignore this message
+[18:43:44] [main/WARN]: Reference map 'iris.refmap.json' for iris-batched-entity-rendering.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:43:44] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.fantastic.json could not be read. If this is a development environment you can ignore this message
+[18:43:44] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
+[18:43:44] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.bettermipmaps.json could not be read. If this is a development environment you can ignore this message
+[18:43:44] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
+[18:43:44] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.fixes.maxfpscrash.json could not be read. If this is a development environment you can ignore this message
+[18:43:44] [main/INFO]: Loaded configuration file for Sodium: 42 options available, 1 override(s) found
+[18:43:45] [main/WARN]: Error loading class: me/aleksilassila/litematica/printer/LitematicaMixinMod (java.lang.ClassNotFoundException: me/aleksilassila/litematica/printer/LitematicaMixinMod)
+[18:43:45] [main/WARN]: @Mixin target me/aleksilassila/litematica/printer/LitematicaMixinMod was not found auto_water_fill_mod_1784218328.mixins.json:LitematicaPrinterServerFixMixin from mod auto_water_fill_mod_1784218328
+[18:43:45] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/DefaultChunkRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/DefaultChunkRenderer)
+[18:43:46] [main/WARN]: Error loading class: net/minecraft/world/level/dimension/end/DragonRespawnStage$3 (java.lang.ClassNotFoundException: net/minecraft/world/level/dimension/end/DragonRespawnStage$3)
+[18:43:46] [main/WARN]: @Mixin target net/minecraft/world/level/dimension/end/DragonRespawnStage$3 was not found carpetamsaddition.mixins.json:rule.preventEndSpikeRespawn.DragonRespawnStageMixin from mod carpet-ams-addition
+[18:43:46] [main/INFO]: Initializing configuration file
+[18:43:47] [main/WARN]: Error loading class: dev/isxander/controlify/virtualmouse/VirtualMouseHandler (java.lang.ClassNotFoundException: dev/isxander/controlify/virtualmouse/VirtualMouseHandler)
+[18:43:47] [main/WARN]: @Mixin target dev.isxander.controlify.virtualmouse.VirtualMouseHandler was not found mixins.ipnext.json:MixinVirtualMouseHandler from mod inventoryprofilesnext
+[18:43:48] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
+[18:43:48] [main/WARN]: Force-disabling mixin 'features.render.world.sky.FogRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[18:43:48] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientLevelMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[18:43:48] [main/WARN]: Force-disabling mixin 'features.render.world.sky.LevelRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[18:43:48] [main/WARN]: Error loading class: net/coderbot/iris/uniforms/WorldTimeUniforms (java.lang.ClassNotFoundException: net/coderbot/iris/uniforms/WorldTimeUniforms)
+[18:43:49] [main/INFO]: Searching for graphics cards...
+[18:43:50] [main/INFO]: Found graphics adapter: AdapterInfo{vendor=INTEL, description='Intel(R) Iris(R) Xe Graphics', adapterType=0x0000032B, openglIcdFilePath='C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_c529b210005a7e19\igxelpicd64.dll', openglIcdVersion=30.0.101.1960}
+[18:43:50] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
+[18:43:53] [main/WARN]: COM exception querying Win32_Processor, which might not be on your system. Will not attempt to query it again. Error was -2147217405: (HRESULT: 80041003)
+[18:43:53] [main/WARN]: COM exception querying Win32_Processor, which might not be on your system. Will not attempt to query it again. Error was -2147217405: (HRESULT: 80041003)
+[18:43:53] [main/WARN]: COM exception querying Win32_PhysicalMemory, which might not be on your system. Will not attempt to query it again. Error was -2147217405: (HRESULT: 80041003)
+[18:43:54] [Datafixer Bootstrap/INFO]: 269 Datafixer optimizations took 1334 milliseconds
+[18:43:59] [main/WARN]: Method overwrite conflict for getClimateSettings in architectury.mixins.json:BiomeAccessor from mod architectury, previously written by carpet.mixins.Biome_scarpetMixin. Skipping method.
+[18:44:01] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:block.MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::negativeLimit(I)I with priority 1000
+[18:44:01] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:block.MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::positiveLimit(I)I with priority 1000
+[18:44:01] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:block.MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::negativeLimit(I)I with priority 1000
+[18:44:01] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:block.MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::positiveLimit(I)I with priority 1000
+[18:44:01] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:block.MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::negativeLimit(I)I with priority 1000
+[18:44:01] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:block.MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::positiveLimit(I)I with priority 1000
+[18:44:01] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:block.MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::positiveLimit(I)I with priority 1000
+[18:44:01] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:block.MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::positiveLimit(I)I with priority 1000
+[18:44:01] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:block.MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::positiveLimit(I)I with priority 1000
+[18:44:09] [main/INFO]: Sodium: [0.7.3+mc1.21.8], Iris: [1.9.6+mc1.21.8]
+[18:44:09] [main/INFO]: Assigning MaLiLib Pipelines to Iris Programs:
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position/masa/no_depth/no_cull: BASIC
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position/masa/no_depth: BASIC
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position/masa/lequal_depth/offset_1: BASIC
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position/masa/lequal_depth/offset_2: BASIC
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position/masa/lequal_depth/offset_3: BASIC
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position/masa/lequal_depth: BASIC
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position/masa/greater_depth: BASIC
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position/masa/depth_mask: BASIC
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position/masa: BASIC
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_color/translucent/no_depth/no_cull: BASIC_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_color/translucent/no_depth: BASIC_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_color/translucent/lequal_depth/offset_1: BASIC_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_color/translucent/lequal_depth/offset_2: BASIC_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_color/translucent/lequal_depth/offset_3: BASIC_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_color/translucent/lequal_depth/no_cull: BASIC_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_color/translucent/lequal_depth: BASIC_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_color/translucent/greater_depth: BASIC_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_color/translucent/depth_mask: BASIC_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_color/translucent: BASIC_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_color/masa/no_depth/no_cull: BASIC_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_color/masa/no_depth: BASIC_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_color/masa/lequal_depth/offset_1: BASIC_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_color/masa/lequal_depth/offset_2: BASIC_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_color/masa/lequal_depth/offset_3: BASIC_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_color/masa/lequal_depth/no_cull: BASIC_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_color/masa/lequal_depth: BASIC_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_color/masa/greater_depth: BASIC_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_color/masa/depth_mask: BASIC_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_color/masa: BASIC_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex/masa/no_depth/no_cull: TEXTURED
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex/masa/no_depth: TEXTURED
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex/masa/lequal_depth/offset_1: TEXTURED
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex/masa/lequal_depth/offset_2: TEXTURED
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex/masa/lequal_depth/offset_3: TEXTURED
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex/masa/lequal_depth: TEXTURED
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex/masa/greater_depth: TEXTURED
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex/masa/depth_mask: TEXTURED
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex/masa: TEXTURED
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent/no_depth/no_cull: TEXTURED_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent/no_depth: TEXTURED_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent/lequal_depth/offset_1: TEXTURED_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent/lequal_depth/offset_2: TEXTURED_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent/lequal_depth/offset_3: TEXTURED_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent/lequal_depth/no_cull: TEXTURED_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent/lequal_depth: TEXTURED_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent/greater_depth: TEXTURED_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent/depth_mask: TEXTURED_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent: TEXTURED_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa/no_depth/no_cull: TEXTURED_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa/no_depth: TEXTURED_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa/lequal_depth/offset_1: TEXTURED_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa/lequal_depth/offset_2: TEXTURED_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa/lequal_depth/offset_3: TEXTURED_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa/lequal_depth/no_cull: TEXTURED_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa/lequal_depth: TEXTURED_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa/greater_depth: TEXTURED_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa/depth_mask: TEXTURED_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa: TEXTURED_COLOR
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/translucent/no_depth/no_cull: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/translucent/no_depth: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/translucent/no_cull: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/translucent/lequal_depth: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/translucent/offset_1: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/translucent/offset_2: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/translucent/offset_3: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/translucent: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/masa_simple/no_depth/no_cull: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/masa_simple/no_depth: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/masa_simple/no_cull: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/masa_simple/lequal_depth: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/masa_simple/offset_1: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/masa_simple/offset_2: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/masa_simple/offset_3: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/masa_simple: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/translucent/no_depth/no_cull: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/translucent/no_depth: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/translucent/no_cull: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/translucent/offset_1: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/translucent/offset_2: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/translucent/offset_3: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/translucent: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/masa_simple/no_depth/no_cull: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/masa_simple/no_depth: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/masa_simple/no_cull: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/masa_simple/offset_1: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/masa_simple/offset_2: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/masa_simple/offset_3: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/masa_simple: LINES
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/solid/masa/offset: TERRAIN_SOLID
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/wireframe/masa/offset: LINES
+[18:44:10] [main/WARN]: Found fine program match for malilib:pipeline/cutout_mipped/masa/offset: TERRAIN_CUTOUT
+[18:44:10] [main/WARN]: Found fine program match for malilib:pipeline/cutout/masa/offset: TERRAIN_CUTOUT
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/translucent/masa/offset: TERRAIN_TRANSLUCENT
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/tripwire/masa/offset: TERRAIN_TRANSLUCENT
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/solid/masa: TERRAIN_SOLID
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/wireframe/masa: LINES
+[18:44:10] [main/WARN]: Found fine program match for malilib:pipeline/cutout_mipped/masa: TERRAIN_CUTOUT
+[18:44:10] [main/WARN]: Found fine program match for malilib:pipeline/cutout/masa: TERRAIN_CUTOUT
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/translucent/masa: TERRAIN_TRANSLUCENT
+[18:44:10] [main/WARN]: Found *decent* program match for malilib:pipeline/tripwire/masa: TERRAIN_TRANSLUCENT
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/minihud/shape/no_depth/offset: BASIC_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/minihud/shape/no_depth: BASIC_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/minihud/shape/offset/no_cull: BASIC_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/minihud/shape/offset: BASIC_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/minihud/shape/depth_mask: BASIC_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/minihud/shape/no_cull: BASIC_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/minihud/shape: BASIC_COLOR
+[18:44:10] [main/WARN]: Found okay program match for malilib:pipeline/gui_overlay: BASIC_COLOR
+[18:44:10] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:44:11] [Render thread/INFO]: Setting user: Dev
+[18:44:11] [Render thread/INFO]: auto_water_fill_mod_1784218328 initialized.
+[18:44:11] [Render thread/INFO]: Initializing Axiom/5.4.2
+[18:44:13] [Render thread/WARN]: @Redirect conflict. Skipping mixins.tweakeroo.json:network.MixinServerPlayNetworkHandler from mod tweakeroo->@Redirect::tweakeroo_removeHitPosCheck(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_243; with priority 1005, already redirected by mixins.litematica.json:easyplace.MixinServerPlayNetworkHandler_easyPlace from mod litematica->@Redirect::litematica_removeHitPosCheck(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_243; with priority 1010
+[18:44:13] [TISCM Mapping/INFO]: Yarn mapping file yarn-1.21.8+build.1-v2.tiny loaded
+[18:44:13] [Render thread/INFO]: Registering remote inventory server-side handlers...
+[18:44:13] [Render thread/INFO]: Remote inventory server-side handlers registered.
+[18:44:14] [Render thread/INFO]: idwtialsimmoedm - I didn't want to install a library so I made my own enchantment descriptions mod
+[18:44:14] [Render thread/INFO]: [PatPat]: PatPat Initialized
+[18:44:14] [Render thread/INFO]: QuickShulker Multi is loaded.
+[18:44:14] [Render thread/INFO]: Hello Fabric world!
+[18:44:14] [Render thread/INFO]: [REI] Config loaded
+[18:44:14] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:request_tags_s2c
+[18:44:14] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[18:44:14] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
+[18:44:14] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
+[18:44:14] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
+[18:44:14] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[18:44:14] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[18:44:14] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[18:44:14] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[18:44:14] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[18:44:15] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
+[18:44:15] [Render thread/INFO]: [BetterF3] Loading...
+[18:44:15] [Render thread/INFO]: [BetterF3] All done!
+[18:44:15] [Render thread/INFO]: Carpet AMS Addition v26.2 loaded! (Total rules: 149)
+[18:44:15] [Render thread/INFO]: Open Source: https://github.com/Minecraft-AMS/Carpet-AMS-Addition
+[18:44:15] [Render thread/INFO]: Issues: https://github.com/Minecraft-AMS/Carpet-AMS-Addition/issues
+[18:44:15] [Render thread/INFO]: Wiki: https://minecraft-ams.github.io/carpetamsaddition/
+[18:44:16] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[18:44:16] [Render thread/INFO]: [FMCC-SELFTEST] armed with fmcc.selftest=true; titles are 'FMCC测Ac6' / 'FMCC测Bc6'; report goes to <gameDir>/fmcc-selftest-report.json
+[18:44:16] [Render thread/INFO]: FMCC ready (config: D:\DeepSeek-Harness\FMCC\run-compat\fmcc-config.json, 0 entries)
+[18:44:16] [Render thread/WARN]: [IMBlocker] Class com.enxv.aeronauticsstructuretool.ToolModeScreen not found, ignored.
+[18:44:16] [Render thread/WARN]: [IMBlocker] Class net.mehvahdjukaar.supplementaries.client.screens.TextHolderEditScreen not found, ignored.
+[18:44:16] [Render thread/WARN]: [IMBlocker] Class com.simibubi.create.content.equipment.clipboard.ClipboardScreen not found, ignored.
+[18:44:16] [Render thread/WARN]: [IMBlocker] Class dev.simulated_team.simulated.content.blocks.nameplate.NameplateScreen not found, ignored.
+[18:44:16] [Render thread/INFO]: [IMBlocker] bakelist screenWhitelist result [class net.minecraft.class_7743]
+[18:44:16] [Render thread/WARN]: Failed to register remote inventory payloads, maybe already registered?
+[18:44:17] [Render thread/INFO]: [PatPat/Client]: PatPat Client Initialized
+[18:44:17] [Render thread/INFO]: [REI] Registered plugin provider REITooltipPlugin [appleskin] for REIClientPlugin
+[18:44:17] [Render thread/INFO]: [REI] Registered plugin provider OwoReiPlugin [owo] for REIClientPlugin
+[18:44:17] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIClientPlugin
+[18:44:17] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIClientPlugin
+[18:44:17] [Render thread/INFO]: [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIClientPlugin
+[18:44:17] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:ci_msg
+[18:44:17] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:og_not_enough
+[18:44:17] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:sync_displays
+[18:44:17] [Render thread/INFO]: [STDOUT]: [LibGui] Initializing Client...
+[18:44:17] [Render thread/INFO]: Registering common data for channel xaerolib:main!
+[18:44:17] [Render thread/INFO]: Registering client data for channel xaerolib:main!
+[18:44:17] [Render thread/INFO]: Loading primary common config for channel xaerolib:main!
+[18:44:17] [Render thread/INFO]: Loading server config profiles for channel xaerolib:main!
+[18:44:17] [Render thread/INFO]: Loading primary client config for channel xaerolib:main!
+[18:44:17] [Render thread/INFO]: Loading client config profiles for channel xaerolib:main!
+[18:44:17] [Render thread/INFO]: Loading XaeroLib common 1/2!
+[18:44:17] [Render thread/INFO]: Loading XaeroLib client 1/2!
+[18:44:18] [Render thread/WARN]: io exception while checking patreon: Read timed out
+[18:44:18] [Render thread/INFO]: Registering common data for channel xaerominimap:main!
+[18:44:18] [Render thread/INFO]: Registering client data for channel xaerominimap:main!
+[18:44:18] [Render thread/INFO]: Loading primary common config for channel xaerominimap:main!
+[18:44:18] [Render thread/INFO]: Loading server config profiles for channel xaerominimap:main!
+[18:44:18] [Render thread/INFO]: Loading primary client config for channel xaerominimap:main!
+[18:44:18] [Render thread/INFO]: Loading client config profiles for channel xaerominimap:main!
+[18:44:19] [Render thread/INFO]: Loading Xaero's Minimap - Stage 1/2
+[18:44:19] [Render thread/INFO]: Registering common data for channel xaeroworldmap:main!
+[18:44:19] [Render thread/INFO]: Registering client data for channel xaeroworldmap:main!
+[18:44:19] [Render thread/INFO]: Loading primary common config for channel xaeroworldmap:main!
+[18:44:19] [Render thread/INFO]: Loading server config profiles for channel xaeroworldmap:main!
+[18:44:19] [Render thread/INFO]: Loading primary client config for channel xaeroworldmap:main!
+[18:44:19] [Render thread/INFO]: Loading client config profiles for channel xaeroworldmap:main!
+[18:44:19] [Render thread/INFO]: Loading Xaero's World Map - Stage 1/2
+[18:44:20] [Render thread/INFO]: Backend library: LWJGL version 3.3.3-snapshot
+[18:44:21] [Render thread/INFO]: Debug functionality is disabled.
+[18:44:21] [Render thread/INFO]: ARB_direct_state_access detected, enabling DSA.
+[18:44:21] [Render thread/INFO]: Shaders are disabled because no valid shaderpack is selected
+[18:44:21] [Render thread/INFO]: OpenGL Vendor: Intel
+[18:44:21] [Render thread/INFO]: OpenGL Renderer: Intel(R) Iris(R) Xe Graphics
+[18:44:21] [Render thread/INFO]: OpenGL Version: 3.2.0 - Build 30.0.101.1960
+[18:44:21] [Render thread/INFO]: Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
+[18:44:22] [Render thread/WARN]: @Redirect conflict. Skipping mixins.tweakeroo.json:render.MixinGameRenderer_ViewBob from mod tweakeroo->@Redirect::tweakeroo_disableWorldViewBob(Lnet/minecraft/class_757;Lnet/minecraft/class_4587;F)V with priority 999, already redirected by mixins.iris.json:MixinModelViewBobbing from mod iris->@Redirect::iris$stopBobbing(Lnet/minecraft/class_757;Lnet/minecraft/class_4587;F)V with priority 1000
+[18:44:22] [Render thread/INFO]: Hardware information:
+[18:44:22] [Render thread/WARN]: COM exception querying Win32_Processor, which might not be on your system. Will not attempt to query it again. Error was -2147217405: (HRESULT: 80041003)
+[18:44:22] [Render thread/WARN]: COM exception querying Win32_Processor, which might not be on your system. Will not attempt to query it again. Error was -2147217405: (HRESULT: 80041003)
+[18:44:22] [Render thread/INFO]: CPU: 8x 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+[18:44:22] [Render thread/INFO]: GPU: Intel(R) Iris(R) Xe Graphics (Supports OpenGL 3.2.0 - Build 30.0.101.1960)
+[18:44:22] [Render thread/INFO]: OS: Windows 10 (10.0)
+[18:44:22] [Render thread/WARN]: onRegisterSpecialGuiRenderer():
+[18:44:24] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric, annotationtoolbox, appleskin, auto_water_fill_mod_1784218328, axiom, betterf3, blur, carpet, carpet-ams-addition, carpet-org-addition, carpet-tis-addition, carpetgui, catalogue, cloth-config, commandkeys, conditional-mixin, continuity, entityculling, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-serialization-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fmcc, gca, gca_wrapper, imblocker, inventoryprofilesnext, iris, itemscroller, jade, lattice, libipn, litematica, litematica-printer, litematica-printer-wrapper, litematica_container_filler, malilib, menulogue, midnightlib, owo, patpat, proxlib, quickshulker, ram-leak-fix, roughlyenoughitems, sodium, syncmatica_r, trender, tweakermore, tweakeroo, xaerolib, xaerominimap, xaeroworldmap
+[18:44:24] [Worker-Main-6/INFO]: Found unifont_all_no_pua-16.0.03.hex, loading
+[18:44:24] [Worker-Main-2/INFO]: Found unifont_pua-16.0.03.hex, loading
+[18:44:24] [Worker-Main-7/INFO]: Found unifont_jp_patch-16.0.03.hex, loading
+[18:44:25] [Render thread/ERROR]: Schematic directory 'D:\DeepSeek-Harness\FMCC\run-compat\schematics'; is not writeable.
+[18:44:26] [Render thread/ERROR]: loadFromFile(): Failed to load config file 'D:\DeepSeek-Harness\FMCC\run-compat\config\tweakeroo.json'.
+[18:44:26] [Render thread/ERROR]: loadFromFile(): Failed to load config file 'D:\DeepSeek-Harness\FMCC\run-compat\config\itemscroller.json'.
+[18:44:26] [Render thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
+[18:44:26] [Render thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
+[18:44:27] [Render thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
+[18:44:27] [Render thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
+[18:44:27] [Render thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
+[18:44:27] [Worker-Main-2/WARN]: Missing texture references in model minecraft:block/moving_piston:
+    particle
+[18:44:27] [Worker-Main-2/WARN]: Missing texture references in model minecraft:block/structure_void:
+    particle
+[18:44:27] [Render thread/INFO]: Loading Xaero's World Map - Stage 2/2
+[18:44:27] [Render thread/INFO]: New world map region cache hash code: 681260949
+[18:44:28] [Render thread/ERROR]: io exception while checking versions: Read timed out
+[18:44:28] [Render thread/INFO]: Registered player tracker system: map_synced
+[18:44:28] [Render thread/INFO]: Xaero's WorldMap Mod: Xaero's minimap found!
+[18:44:28] [Render thread/INFO]: Registered player tracker system: minimap_synced
+[18:44:28] [Render thread/INFO]: No Optifine!
+[18:44:28] [Render thread/INFO]: Xaero's World Map: No Vivecraft!
+[18:44:28] [Render thread/INFO]: Xaero's World Map: Iris found!
+[18:44:30] [ForkJoinPool.commonPool-worker-2/INFO]: Localization update count: remote=52381, last=0
+[18:44:30] [ForkJoinPool.commonPool-worker-2/INFO]: Downloading localizations...
+[18:44:36] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on 扬声器 (Realtek(R) Audio)
+[18:44:36] [Render thread/INFO]: Sound engine started
+[18:44:36] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[18:44:40] [ForkJoinPool.commonPool-worker-1/WARN]: [Iris Update Check] Failed to get update info!
+java.net.ConnectException: Connection timed out: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:589) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:578) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:181) ~[?:?]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1252) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1138) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.followRedirect0(HttpURLConnection.java:2924) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.followRedirect(HttpURLConnection.java:2833) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1944) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1614) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223) ~[?:?]
+	at java.base/java.net.URL.openStream(URL.java:1325) ~[?:?]
+	at knot/net.irisshaders.iris.UpdateChecker.lambda$checkForUpdates$0(UpdateChecker.java:89) ~[iris-fabric-1.9.6+mc1.21.8.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[18:44:41] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[18:44:41] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[18:44:41] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[18:44:42] [Render thread/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[18:44:44] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[18:44:44] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[18:44:44] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[18:44:44] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[18:44:44] [Render thread/INFO]: Loading Xaero's Minimap - Stage 2/2
+[18:44:47] [Render thread/WARN]: io exception while checking versions: Read timed out
+[18:44:47] [Render thread/INFO]: Registered player tracker system: minimap_synced
+[18:44:47] [Render thread/INFO]: Xaero's Minimap: World Map found!
+[18:44:47] [Render thread/INFO]: No Optifine!
+[18:44:47] [Render thread/INFO]: Xaero's Minimap: No Vivecraft!
+[18:44:47] [Render thread/INFO]: Xaero's Minimap: Iris found!
+[18:44:47] [Render thread/INFO]: Loading XaeroLib common 2/2!
+[18:44:47] [Render thread/INFO]: Loading XaeroLib client 2/2!
+[18:44:47] [Render thread/INFO]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[18:44:47] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[18:44:47] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[18:44:47] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[18:44:48] [Render thread/INFO]: [PatPat/Client/ResourcePackManager]: Registering patpat resource pack
+[18:44:48] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config autoCleanContainer (field AUTO_CLEAN_CONTAINER)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config autoCleanContainerIgnoreEnderChest (field AUTO_CLEAN_CONTAINER_IGNORE_ENDER_CHEST)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config autoCleanContainerListType (field AUTO_CLEAN_CONTAINER_LIST_TYPE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config autoCleanContainerWhiteList (field AUTO_CLEAN_CONTAINER_WHITELIST)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config autoCleanContainerBlackList (field AUTO_CLEAN_CONTAINER_BLACKLIST)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config autoCollectMaterialListItem (field AUTO_COLLECT_MATERIAL_LIST_ITEM)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config autoCollectMaterialListItemMessageType (field AUTO_COLLECT_MATERIAL_LIST_ITEM_MESSAGE_TYPE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config autoCollectMaterialListItemCloseGui (field AUTO_COLLECT_MATERIAL_LIST_ITEM_CLOSE_GUI)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config autoCollectMaterialListItemRetainItem (field AUTO_COLLECT_MATERIAL_LIST_ITEM_RETAIN_ITEM)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config autoCollectMaterialListItemRetainItemAmount (field AUTO_COLLECT_MATERIAL_LIST_ITEM_KEEP_RETAIN_AMOUNT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config autoFillContainer (field AUTO_FILL_CONTAINER)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config autoFillContainerIgnoreEnderChest (field AUTO_FILL_CONTAINER_IGNORE_ENDER_CHEST)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config autoFillContainerThreshold (field AUTO_FILL_CONTAINER_THRESHOLD)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config autoPickSchematicBlock (field AUTO_PICK_SCHEMATIC_BLOCK)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config autoPutBackExistedItem (field AUTO_PUT_BACK_EXISTED_ITEM)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config autoVillagerTradeFavorites (field AUTO_VILLAGER_TRADE_FAVORITES)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config autoRespawn (field AUTO_RESPAWN)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config containerProcessorHint (field CONTAINER_PROCESSOR_HINT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config containerProcessorHintPos (field CONTAINER_PROCESSOR_HINT_POS)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config containerProcessorHintScale (field CONTAINER_PROCESSOR_HINT_SCALE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config copyItemDataToClipBoard (field COPY_ITEM_DATA_TO_CLIPBOARD)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config copySignTextToClipBoard (field COPY_SIGN_TEXT_TO_CLIPBOARD)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config creativePickBlockWithState (field CREATIVE_PICK_BLOCK_WITH_STATE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config fireworkRocketThrottler (field FIREWORK_ROCKET_THROTTLER)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config fireworkRocketThrottlerCooldown (field FIREWORK_ROCKET_THROTTLER_COOLDOWN)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoView (field INFO_VIEW)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewBeamAngle (field INFO_VIEW_BEAM_ANGLE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewFollowFreecam (field INFO_VIEW_FOLLOW_FREECAM)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewTargetDistance (field INFO_VIEW_TARGET_DISTANCE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewRenderingKey (field INFO_VIEW_RENDERING_KEY)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewScanningPerSecond (field INFO_VIEW_SCANNING_PER_SECOND)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewBeacon (field INFO_VIEW_BEACON)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewBeaconRenderStrategy (field INFO_VIEW_BEACON_RENDER_STRATEGY)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewBeaconTargetStrategy (field INFO_VIEW_BEACON_TARGET_STRATEGY)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewComparator (field INFO_VIEW_COMPARATOR)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewComparatorRenderStrategy (field INFO_VIEW_COMPARATOR_RENDER_STRATEGY)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewComparatorTargetStrategy (field INFO_VIEW_COMPARATOR_TARGET_STRATEGY)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewComparatorTextScale (field INFO_VIEW_COMPARATOR_TEXT_SCALE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewCommandBlock (field INFO_VIEW_COMMAND_BLOCK)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewCommandBlockMaxWidth (field INFO_VIEW_COMMAND_BLOCK_MAX_WIDTH)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewCommandBlockRenderStrategy (field INFO_VIEW_COMMAND_BLOCK_RENDER_STRATEGY)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewCommandBlockTargetStrategy (field INFO_VIEW_COMMAND_BLOCK_TARGET_STRATEGY)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewCommandBlockTextScale (field INFO_VIEW_COMMAND_BLOCK_TEXT_SCALE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewGrowthSpeed (field INFO_VIEW_GROWTH_SPEED)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewGrowthSpeedRenderStrategy (field INFO_VIEW_GROWTH_SPEED_RENDER_STRATEGY)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewGrowthSpeedTargetStrategy (field INFO_VIEW_GROWTH_SPEED_TARGET_STRATEGY)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewGrowthSpeedTextScale (field INFO_VIEW_GROWTH_SPEED_TEXT_SCALE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewHopper (field INFO_VIEW_HOPPER)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewHopperRenderStrategy (field INFO_VIEW_HOPPER_RENDER_STRATEGY)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewHopperTargetStrategy (field INFO_VIEW_HOPPER_TARGET_STRATEGY)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewHopperTextScale (field INFO_VIEW_HOPPER_TEXT_SCALE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewRedstoneDustUpdateOrder (field INFO_VIEW_REDSTONE_DUST_UPDATE_ORDER)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewRedstoneDustUpdateOrderRenderStrategy (field INFO_VIEW_REDSTONE_DUST_UPDATE_ORDER_RENDER_STRATEGY)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewRedstoneDustUpdateOrderTextAlpha (field INFO_VIEW_REDSTONE_DUST_UPDATE_ORDER_TEXT_ALPHA)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewRedstoneDustUpdateOrderTextScale (field INFO_VIEW_REDSTONE_DUST_UPDATE_ORDER_TEXT_SCALE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewRespawnBlockExplosion (field INFO_VIEW_RESPAWN_BLOCK_EXPLOSION)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewRespawnBlockExplosionTextAlpha (field INFO_VIEW_RESPAWN_BLOCK_EXPLOSION_TEXT_ALPHA)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewRespawnBlockExplosionRenderStrategy (field INFO_VIEW_RESPAWN_BLOCK_EXPLOSION_RENDER_STRATEGY)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewRespawnBlockExplosionTargetStrategy (field INFO_VIEW_RESPAWN_BLOCK_EXPLOSION_TARGET_STRATEGY)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewStructureBlock (field INFO_VIEW_STRUCTURE_BLOCK)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewStructureBlockMaxWidth (field INFO_VIEW_STRUCTURE_BLOCK_MAX_WIDTH)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewStructureBlockRenderStrategy (field INFO_VIEW_STRUCTURE_BLOCK_RENDER_STRATEGY)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewStructureBlockTargetStrategy (field INFO_VIEW_STRUCTURE_BLOCK_TARGET_STRATEGY)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config infoViewStructureBlockTextScale (field INFO_VIEW_STRUCTURE_BLOCK_TEXT_SCALE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config pistorder (field PISTORDER)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config pistorderClearDisplay (field PISTORDER_CLEAR_DISPLAY)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config pistorderDynamicallyInfoUpdate (field PISTORDER_DYNAMICALLY_INFO_UPDATE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config pistorderMaxRenderDistance (field PISTORDER_MAX_RENDER_DISTANCE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config pistorderMaxSimulationPushLimit (field PISTORDER_MAX_SIMULATION_PUSH_LIMIT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config pistorderSwingHand (field PISTORDER_SWING_HAND)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config pistorderTextAlpha (field PISTORDER_TEXT_ALPHA)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config pistorderTextScale (field PISTORDER_TEXT_SCALE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config pistorderTextShadow (field PISTORDER_TEXT_SHADOW)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config refreshInventory (field REFRESH_INVENTORY)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config safeAfk (field SAFE_AFK)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config safeAfkHealthThreshold (field SAFE_AFK_HEALTH_THRESHOLD)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config schematicProPlace (field SCHEMATIC_PRO_PLACE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config schematicBlockPlacementRestriction (field SCHEMATIC_BLOCK_PLACEMENT_RESTRICTION)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config schematicBlockPlacementRestrictionHint (field SCHEMATIC_BLOCK_PLACEMENT_RESTRICTION_HINT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config schematicBlockPlacementRestrictionItemWhitelist (field SCHEMATIC_BLOCK_PLACEMENT_RESTRICTION_ITEM_WHITELIST)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config schematicBlockPlacementRestrictionMargin (field SCHEMATIC_BLOCK_PLACEMENT_RESTRICTION_MARGIN)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config schematicBlockPlacementRestrictionCheckFacing (field SCHEMATIC_BLOCK_PLACEMENT_RESTRICTION_CHECK_FACING)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config schematicBlockPlacementRestrictionCheckSlab (field SCHEMATIC_BLOCK_PLACEMENT_RESTRICTION_CHECK_SLAB)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config schematicBlockPlacementRestrictionStrict (field SCHEMATIC_BLOCK_PLACEMENT_RESTRICTION_STRICT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config serverMsptMetricsStatisticType (field SERVER_MSPT_METRICS_STATISTIC_TYPE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config spectatorTeleportCommand (field SPECTATOR_TELEPORT_COMMAND)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config spectatorTeleportCommandPrefix (field SPECTATOR_TELEPORT_COMMAND_PREFIX)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config villagerOfferUsesDisplay (field VILLAGER_OFFER_USES_DISPLAY)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config barrierParticleAlwaysVisible (field BARRIER_PARTICLE_ALWAYS_VISIBLE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config blockEventThrottler (field BLOCK_EVENT_THROTTLER)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config blockEventThrottlerTargetBlocks (field BLOCK_EVENT_THROTTLER_TARGET_BLOCKS)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config blockEventThrottlerThreshold (field BLOCK_EVENT_THROTTLER_THRESHOLD)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config blockEventThrottlerWhitelistRange (field BLOCK_EVENT_THROTTLER_WHITELIST_RANGE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config bossBarMaxEntry (field BOSS_BAR_MAX_ENTRY)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config bossBarScale (field BOSS_BAR_SCALE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config chatMessageLimit (field CHAT_MESSAGE_LIMIT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config clientEntityTargetingSelectAll (field CLIENT_ENTITY_TARGETING_SUPPORT_ALL)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config commandHistoryLimit (field COMMAND_HISTORY_LIMIT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config connectionSimulatedDelay (field CONNECTION_SIMULATED_DELAY)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config daytimeOverride (field DAYTIME_OVERRIDE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config daytimeOverrideValue (field DAYTIME_OVERRIDE_VALUE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config disableBeaconBeamRendering (field DISABLE_BEACON_BEAM_RENDERING)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config disableCameraFrustumCulling (field DISABLE_CAMERA_FRUSTUM_CULLING)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config disableCameraSubmersionFog (field DISABLE_CAMERA_SUBMERSION_FOG)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config disableCreativeFlyClimbingCheck (field DISABLE_CREATIVE_FLY_CLIMBING_CHECK)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config disableCreativeFlyLandingExitFlying (field DISABLE_CREATIVE_FLY_LANDING_EXIT_FLYING)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config disableDarkSkyRendering (field DISABLE_DARK_SKY_RENDERING)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config disableDarknessEffect (field DISABLE_DARKNESS_EFFECT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config disableEntityDeathTilting (field DISABLE_ENTITY_DEATH_TILTING)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config disableEntityModelRendering (field DISABLE_ENTITY_MODEL_RENDERING)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config disableEntityRenderInterpolation (field DISABLE_ENTITY_RENDER_INTERPOLATION)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config disableEntityRenderInterpolationForcedSync (field DISABLE_ENTITY_RENDER_INTERPOLATION_FORCED_SYNC)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config disableF3BEntityFacingVector (field DISABLE_F3_B_ENTITY_FACING_VECTOR)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config disableF3BEntityFacingVectorAsArrow (field DISABLE_F3_B_ENTITY_FACING_VECTOR_AS_ARROW)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config disableHoneyBlockEffect (field DISABLE_HONEY_BLOCK_EFFECT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config disableHorizonShadingRendering (field DISABLE_HORIZON_SHADING_RENDERING)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config disableInventoryScreenPlayerModelRendering (field DISABLE_INVENTORY_SCREEN_PLAYER_MODEL_RENDERING)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config disableLightUpdates (field DISABLE_LIGHT_UPDATES)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config disablePistonBlockBreakingParticle (field DISABLE_PISTON_BLOCK_BREAKING_PARTICLE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config disableRedstoneParticle (field DISABLE_REDSTONE_PARTICLE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config disableResourcePackListResetOnFailure (field DISABLE_RESOURCE_PACK_LIST_RESET_ON_FAILURE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config disableSignTextLengthLimit (field DISABLE_SIGN_TEXT_LENGTH_LIMIT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config disableSlimeBlockBouncing (field DISABLE_SLIME_BLOCK_BOUNCING)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config disableTiltViewWhenHurt (field DISABLE_TILT_VIEW_WHEN_HURT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config disableVignetteDarkness (field DISABLE_VIGNETTE_DARKNESS)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config f3BEntityFacingVectorLength (field F3_B_ENTITY_FACING_VECTOR_LENGTH)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config f3GSimplify (field F3_G_SIMPLIFY)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config f3IUseRelatedCoordinate (field F3_I_USE_RELATED_COORDINATE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config f3IUseRelatedCoordinateShift1 (field F3_I_USE_RELATED_COORDINATE_SHIFT_1)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config f3TextScale (field F3_TEXT_SCALE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config fakeNightVision (field FAKE_NIGHT_VISION)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config fixChestMirroring (field FIX_CHEST_MIRRORING)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config fixHoverTextScale (field FIX_HOVER_TEXT_SCALE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config flawlessFrames (field FLAWLESS_FRAMES)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config flyDrag (field FLY_DRAG)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config fovOverrideEnabled (field FOV_OVERRIDE_ENABLED)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config fovOverrideValue (field FOV_OVERRIDE_VALUE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config itemTooltipHideUntilMouseMove (field ITEM_TOOLTIP_HIDE_UNTIL_MOUSE_MOVE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config keepMessageHistoryOnReconfiguration (field KEEP_MESSAGE_HISTORY_ON_RECONFIGURATION)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config legacyF3NLogic (field LEGACY_F3_N_LOGIC)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config lowerExplosionSound (field LOWER_EXPLOSION_SOUND)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config lowerExplosionSoundLimitPerTick (field LOWER_EXPLOSION_SOUND_LIMIT_PER_TICK)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config lowerExplosionSoundPercent (field LOWER_EXPLOSION_SOUND_PERCENT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config maxChatHudHeight (field MAX_CHAT_HUD_HEIGHT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config moveConnectedServerEntryToTop (field MOVE_CONNECTED_SERVER_ENTRY_TO_TOP)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config movingPistonBlockSelectable (field MOVING_PISTON_BLOCK_SELECTABLE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config movingPistonBlockSelectableCreativeOnly (field MOVING_PISTON_BLOCK_SELECTABLE_CREATE_ONLY)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config multiplayerForcedEnabled (field MULTIPLAYER_FORCED_ENABLED)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config netherPortalSoundChance (field NETHER_PORTAL_SOUND_CHANCE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config particleLimit (field PARTICLE_LIMIT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config playerNameTagRenderStrategyList (field PLAYER_NAME_TAG_RENDER_STRATEGY_LIST)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config playerNameTagRenderStrategyType (field PLAYER_NAME_TAG_RENDER_STRATEGY_TYPE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config playerSkinBlockingLoading (field PLAYER_SKIN_BLOCKING_LOADING)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config potionItemShouldHaveEnchantmentGlint (field POTION_ITEM_SHOULD_HAVE_ENCHANTMENT_GLINT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config preciseItemEntityModel (field PRECISE_ITEM_ENTITY_MODEL)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config preciseItemEntityModelYawSnap (field PRECISE_ITEM_ENTITY_MODEL_YAW_SNAP)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config prioritizedCommandSuggestions (field PRIORITIZED_COMMAND_SUGGESTIONS)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config rememberServerListScrollPositionOnRefresh (field REMEMBER_SERVER_LIST_SCROLL_POSITION_ON_REFRESH)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config scoreboardSideBarScale (field SCOREBOARD_SIDE_BAR_SCALE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config shulkerBoxItemContentHint (field SHULKER_BOX_ITEM_CONTENT_HINT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config shulkerBoxItemContentHintScale (field SHULKER_BOX_ITEM_CONTENT_HINT_SCALE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config shulkerBoxItemContentHintShowBarOnMixed (field SHULKER_BOX_ITEM_CONTENT_HINT_SHOW_BAR_ON_MIXED)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config shulkerBoxItemContentHintCustomNamesOverrideItem (field SHULKER_BOX_ITEM_CONTENT_HINT_CUSTOM_NAMES_OVERRIDE_ITEM)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config shulkerBoxTooltipEnchantmentHint (field SHULKER_BOX_TOOLTIP_ENCHANTMENT_HINT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config shulkerBoxTooltipFillLevelHint (field SHULKER_BOX_TOOLTIP_FILL_LEVEL_HINT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config shulkerBoxTooltipHintLengthLimit (field SHULKER_BOX_TOOLTIP_HINT_LENGTH_LIMIT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config shulkerBoxTooltipPotionInfoHint (field SHULKER_BOX_TOOLTIP_POTION_INFO_HINT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config signMultilinePasteSupport (field SIGN_MULTILINE_PASTE_SUPPORT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config signEditScreenCancelButton (field SIGN_EDIT_SCREEN_CANCEL_BUTTON)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config signEditScreenEscDiscard (field SIGN_EDIT_SCREEN_ESC_DISCARD)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config spectatorTeleportMenuIncludeSpectator (field SPECTATOR_TELEPORT_MENU_INCLUDE_SPECTATOR)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config steveAlexOnlyDefaultSkins (field STEVE_ALEX_ONLY_DEFAULT_SKINS)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config tickFreezeAutoReplaceWithUnfreeze (field TICK_FREEZE_AUTO_REPLACE_WITH_UNFREEZE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config unlimitedBlockEntityRenderDistance (field UNLIMITED_BLOCK_ENTITY_RENDER_DISTANCE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config unlimitedEntityRenderDistance (field UNLIMITED_ENTITY_RENDER_DISTANCE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config weatherOverride (field WEATHER_OVERRIDE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config weatherOverrideValue (field WEATHER_OVERRIDE_VALUE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config yeetServerIpReversedDnsLookup (field YEET_SERVER_IP_REVERSED_DNS_LOOKUP)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config windowSizeApply (field WINDOW_SIZE_APPLY)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config windowSizeWidth (field WINDOW_SIZE_WIDTH)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config windowSizeHeight (field WINDOW_SIZE_HEIGHT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config windowSizePinned (field WINDOW_SIZE_PINNED)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config tadpoleBucketGrowthLeftTime (field TADPOLE_BUCKET_GROWTH_LEFT_TIME)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config applyTweakerMoreOptionLabelGlobally (field APPLY_TWEAKERMORE_OPTION_LABEL_GLOBALLY)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config eCraftItemScrollerCompact (field ECRAFT_ITEM_SCROLLER_COMPACT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config eprHideOnDebugHud (field EPR_HIDE_ON_DEBUG_HUD)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config handRestockListType (field HAND_RESTORE_LIST_TYPE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config handRestockWhiteList (field HAND_RESTORE_WHITELIST)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config handRestockBlackList (field HAND_RESTORE_BLACKLIST)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config lmKeepMaterialListCrossDimension (field LM_KEEP_MATERIAL_LIST_CROSS_DIMENSION)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config lmAutoRefreshMaterialList (field LM_AUTO_REFRESH_MATERIAL_LIST)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config lmMaterialListIgnoreStateMismatches (field LM_MATERIAL_LIST_IGNORE_STATE_MISMATCHES)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config lmOriginOverride000 (field LM_ORIGIN_OVERRIDE_000)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config lmRemoveEntityCommand (field LM_REMOVE_ENTITY_COMMAND)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config lmRemoveEntityCommandPolicy (field LM_REMOVE_ENTITY_COMMAND_POLICY)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config minihudDisableLightOverlaySpawnCheck (field MINIHUD_DISABLE_LIGHT_OVERLAY_SPAWN_CHECK)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config minihudHideIfChatScreenOpened (field MINIHUD_HIDE_IF_CHAT_SCREEN_OPENED)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config mlShulkerBoxPreviewSupportEnderChest (field ML_SHULKER_BOX_PREVIEW_SUPPORT_ENDER_CHEST)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config ofSantaHat (field OF_SANTA_HAT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config ofWitchHat (field OF_WITCH_HAT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config ofRemoveSignTextRenderDistance (field OF_REMOVE_SIGN_TEXT_RENDER_DISTANCE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config ofRemoveItemFrameItemRenderDistance (field OF_REMOVE_ITEM_FRAME_ITEM_RENDER_DISTANCE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config ofUnlockF3FpsLimit (field OF_UNLOCK_F3_FPS_LIMIT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config ofUseVanillaBrightnessCache (field OF_USE_VANILLA_BRIGHTNESS_CACHE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config replayFlySpeedLimitMultiplier (field REPLAY_FLY_SPEED_LIMIT_MULTIPLIER)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config replayAccurateTimelineTimestamp (field REPLAY_ACCURATE_TIMELINE_TIMESTAMP)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config serverDataSyncer (field SERVER_DATA_SYNCER)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config serverDataSyncerQueryInterval (field SERVER_DATA_SYNCER_QUERY_INTERVAL)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config serverDataSyncerQueryLimit (field SERVER_DATA_SYNCER_QUERY_LIMIT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config shaderGameTimeAsWorldTime (field SHADER_GAME_TIME_AS_WORLD_TIME)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config xmapNoSessionFinalizationWait (field XMAP_NO_SESSION_FINALIZATION_WAIT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config xmapWaypointFreecamCompact (field XMAP_WAYPOINT_FREECAM_COMPACT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config lmCustomSchematicBaseDirectoryEnabledPorting (field LM_CUSTOM_SCHEMATIC_BASE_DIRECTORY_ENABLED_PORTING)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config lmCustomSchematicBaseDirectoryPorting (field LM_CUSTOM_SCHEMATIC_BASE_DIRECTORY_PORTING)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config lmPickBlockShulkersPorting (field LM_PICK_BLOCK_SHULKERS_PORTING)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config mcSpectatorEnterSinkingFixPorting (field MC_SPECTATOR_ENTER_SINKING_FIX_PORTING)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config isScrollStacksFallbackFixPorting (field IS_SCROLL_STACKS_FALLBACK_FIX_PORTING)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config tkrDisableNauseaEffectPorting (field TKR_DISABLE_NAUSEA_EFFECT_PORTING)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config configOriginalNameScale (field CONFIG_ORIGINAL_NAME_SCALE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config hideDisabledOptions (field HIDE_DISABLE_OPTIONS)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config openTweakerMoreConfigGui (field OPEN_TWEAKERMORE_CONFIG_GUI)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config preserveConfigUnknownEntries (field PRESERVE_CONFIG_UNKNOWN_ENTRIES)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config tweakerMoreDebugMode (field TWEAKERMORE_DEBUG_MODE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config tweakerMoreDebugBool (field TWEAKERMORE_DEBUG_BOOL)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config tweakerMoreDebugDouble (field TWEAKERMORE_DEBUG_DOUBLE)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config tweakerMoreDebugInt (field TWEAKERMORE_DEBUG_INT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config tweakerMoreDebugResetOptionStatistic (field TWEAKERMORE_DEBUG_RESET_OPTION_STATISTIC)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config tweakerMoreDevMixinAudit (field TWEAKERMORE_DEV_MIXIN_AUDIT)
+[18:44:48] [Render thread/WARN]: Found missing translation for the comment of config tweakerMoreDevPrintDoc (field TWEAKERMORE_DEV_PRINT_DOC)
+[18:44:50] [Render thread/INFO]: Using DearImGui config: config\axiom\imgui.ini
+[18:44:53] [Render thread/INFO]: Reloading ResourceManager: axiom_translations, vanilla, fabric, annotationtoolbox, appleskin, auto_water_fill_mod_1784218328, axiom, betterf3, blur, carpet, carpet-ams-addition, carpet-org-addition, carpet-tis-addition, carpetgui, catalogue, cloth-config, commandkeys, conditional-mixin, continuity, entityculling, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-serialization-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fmcc, gca, gca_wrapper, imblocker, inventoryprofilesnext, iris, itemscroller, jade, lattice, libipn, litematica, litematica-printer, litematica-printer-wrapper, litematica_container_filler, malilib, menulogue, midnightlib, owo, patpat, proxlib, quickshulker, ram-leak-fix, roughlyenoughitems, sodium, syncmatica_r, trender, tweakermore, tweakeroo, xaerolib, xaerominimap, xaeroworldmap
+[18:44:53] [Worker-Main-5/INFO]: Found unifont_pua-16.0.03.hex, loading
+[18:44:53] [Worker-Main-3/INFO]: Found unifont_all_no_pua-16.0.03.hex, loading
+[18:44:53] [Worker-Main-3/INFO]: Found unifont_jp_patch-16.0.03.hex, loading
+[18:44:54] [Render thread/INFO]: [FMCC-SELFTEST] waiting for the vanilla splash overlay to finish (screen=class_442)
+[18:44:54] [Worker-Main-7/WARN]: Missing texture references in model minecraft:block/moving_piston:
+    particle
+[18:44:54] [Worker-Main-7/WARN]: Missing texture references in model minecraft:block/structure_void:
+    particle
+[18:45:01] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on 扬声器 (Realtek(R) Audio)
+[18:45:01] [Render thread/INFO]: Sound engine started
+[18:45:01] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[18:45:04] [Render thread/INFO]: New world map region cache hash code: 1839266910
+[18:45:04] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[18:45:04] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[18:45:04] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[18:45:04] [Render thread/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[18:45:05] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[18:45:05] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[18:45:05] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[18:45:05] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[18:45:05] [Render thread/INFO]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[18:45:05] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[18:45:05] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[18:45:05] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[18:45:05] [Render thread/INFO]: [PatPat/Client/ResourcePackManager]: Registering patpat resource pack
+[18:45:07] [Render thread/INFO]: [FMCC-SELFTEST] PASS wait-for-client: client ready: screen=class_442, inWorld=false, baselineEntries=0, config=D:\DeepSeek-Harness\FMCC\run-compat\fmcc-config.json
+[18:45:08] [Render thread/INFO]: [FMCC-SELFTEST] PASS wait-for-splash-fade: splash overlay gone; viewport settled for an extra 20 ticks
+[18:45:08] [Render thread/INFO]: [FMCC-SELFTEST] PASS assert-hotkey-binding: hotkey ok: translationKey=key.fmcc.open, category=category.fmcc, default=Tab (KEYSYM code 258), boundToTab=true
+[18:45:09] [Render thread/INFO]: [FMCC-SELFTEST] SKIP hotkey-opens-menu: title-screen environment: the FMCC menu opens only from the in-game HUD (currentScreen == null), so the Tab end-to-end check runs in the in-world run (runClientSelfTestWorld)
+[18:45:09] [Render thread/INFO]: [FMCC-SELFTEST] SKIP hotkey-closes-menu: title-screen environment: the menu is not opened by the hotkey here, so the press-again-to-close path is covered by runClientSelfTestWorld
+[18:45:09] [Render thread/INFO]: [FMCC-SELFTEST] opening FmccScreen programmatically for the ESC check (current screen=class_442)
+[18:45:09] [Render thread/INFO]: [FMCC-SELFTEST] sent ESC to FmccScreen (attempt 1, handled=true)
+[18:45:09] [Render thread/INFO]: [FMCC-SELFTEST] PASS esc-closes-menu: ESC closed the menu: currentScreen=class_442 (client restored class_442) after 1 ESC attempt(s), playerInWorld=false
+[18:45:09] [Render thread/INFO]: [FMCC-SELFTEST] PASS open-main-menu: opened FmccScreen via client.setScreen(new FmccScreen())
+[18:45:10] [Render thread/INFO]: [FMCC-SELFTEST] PASS wait-for-main-menu: main menu open with 0 entries, scrollOffset=0
+[18:45:10] [Render thread/INFO]: [FMCC-SELFTEST] PASS assert-empty-geometry: empty state: '+' right edge=620, contentRight=620, y=50, size=26x26
+[18:45:10] [Render thread/INFO]: [FMCC-SELFTEST] screenshot 'main-empty' requested
+[18:45:10] [Render thread/INFO]: [FMCC-SELFTEST] PASS screenshot-main-empty: ok
+[18:45:10] [Render thread/INFO]: [FMCC-SELFTEST] PASS click-add-button-for-cancel: clicked add (cancel path) at (607,63), label='+'
+[18:45:10] [Render thread/INFO]: [FMCC-SELFTEST] PASS wait-for-add-screen: AddEntryScreen open, title field=present
+[18:45:10] [IO-Worker-1/INFO]: [FMCC-SELFTEST] screenshot 'main-empty' saved: 已将截图保存为2026-10-24_18.45.10.png (827321 bytes)
+[18:45:10] [Render thread/INFO]: [FMCC-SELFTEST] PASS click-cancel: clicked Cancel; store size before returning=0
+[18:45:11] [Render thread/INFO]: [FMCC-SELFTEST] PASS wait-for-menu-after-cancel: cancel returned to the menu and created nothing (store size=0)
+[18:45:11] [Render thread/INFO]: [FMCC-SELFTEST] screenshot 'main-after-cancel' requested
+[18:45:11] [Render thread/INFO]: [FMCC-SELFTEST] PASS screenshot-main-after-cancel: ok
+[18:45:11] [Render thread/INFO]: [FMCC-SELFTEST] PASS click-add-button: clicked add at (607,63), label='+'
+[18:45:11] [Render thread/INFO]: [FMCC-SELFTEST] PASS wait-for-add-screen-a: AddEntryScreen open, title field=present
+[18:45:11] [IO-Worker-1/INFO]: [FMCC-SELFTEST] screenshot 'main-after-cancel' saved: 已将截图保存为2026-10-24_18.45.11.png (831554 bytes)
+[18:45:12] [Render thread/INFO]: [FMCC-SELFTEST] PASS type-title-a: typed title 'FMCC测Ac6' (8 code points)
+[18:45:12] [Render thread/INFO]: [FMCC-SELFTEST] PASS click-create-a: clicked Create (active=true), store size now=1
+[18:45:12] [Render thread/INFO]: [FMCC-SELFTEST] PASS wait-for-menu-with-entry-a: entry A persisted: id=ec6a55cb-00a1-4164-a3f0-f451fd397a27, title='FMCC测Ac6'
+[18:45:12] [Render thread/INFO]: [FMCC-SELFTEST] screenshot 'main-one-entry' requested
+[18:45:12] [Render thread/INFO]: [FMCC-SELFTEST] PASS screenshot-main-one-entry: ok
+[18:45:12] [Render thread/INFO]: [FMCC-SELFTEST] PASS click-add-button-b: clicked add (second entry) at (607,95), label='+'
+[18:45:12] [Render thread/INFO]: [FMCC-SELFTEST] PASS wait-for-add-screen-b: AddEntryScreen open, title field=present
+[18:45:13] [IO-Worker-1/INFO]: [FMCC-SELFTEST] screenshot 'main-one-entry' saved: 已将截图保存为2026-10-24_18.45.12.png (828022 bytes)
+[18:45:13] [Render thread/INFO]: [FMCC-SELFTEST] PASS type-title-b: typed title 'FMCC测Bc6' (8 code points)
+[18:45:13] [Render thread/INFO]: [FMCC-SELFTEST] PASS click-create-b: clicked Create (active=true), store size now=2
+[18:45:13] [Render thread/INFO]: [FMCC-SELFTEST] PASS wait-for-menu-with-entry-b: entry B persisted: id=2be18945-91b8-4bbb-b3bc-6bdab81a2d6e, title='FMCC测Bc6'
+[18:45:13] [Render thread/INFO]: [FMCC-SELFTEST] screenshot 'main-two-entries' requested
+[18:45:13] [Render thread/INFO]: [FMCC-SELFTEST] PASS screenshot-main-two-entries: ok
+[18:45:13] [Render thread/INFO]: [FMCC-SELFTEST] PASS assert-row-geometry: geometry ok: 2 rows, contentWidth=220, expectedSendWidth=147, add right=620
+[18:45:14] [Render thread/INFO]: [FMCC-SELFTEST] PASS delete-entry-b: clicked '-' on row 'FMCC测Bc6' (store size before=1)
+[18:45:14] [IO-Worker-1/INFO]: [FMCC-SELFTEST] screenshot 'main-two-entries' saved: 已将截图保存为2026-10-24_18.45.13.png (829396 bytes)
+[18:45:14] [Render thread/INFO]: [FMCC-SELFTEST] PASS wait-for-entry-b-deleted: entry B deleted and persisted; remaining entries=[FMCC测Ac6]
+[18:45:14] [Render thread/INFO]: [FMCC-SELFTEST] PASS click-configure-a: clicked Configure on row 'FMCC测Ac6'
+[18:45:14] [Render thread/INFO]: [FMCC-SELFTEST] PASS wait-for-config-screen: EntryConfigScreen open for 'FMCC测Ac6', texts=0
+[18:45:14] [Render thread/INFO]: [FMCC-SELFTEST] PASS click-config-add-1: clicked '+' in config screen; texts before=1
+[18:45:15] [Render thread/INFO]: [FMCC-SELFTEST] PASS wait-for-1-text: config screen now has 1 text field
+[18:45:15] [Render thread/INFO]: [FMCC-SELFTEST] PASS click-config-add-2: clicked '+' in config screen; texts before=2
+[18:45:15] [Render thread/INFO]: [FMCC-SELFTEST] PASS wait-for-2-texts: config screen now has 2 text fields
+[18:45:15] [Render thread/INFO]: [FMCC-SELFTEST] PASS type-texts: typed '/seed' and 'hello fmcc' into the two fields
+[18:45:15] [Render thread/INFO]: [FMCC-SELFTEST] PASS wait-for-text-values: model texts persisted in order: [/seed, hello fmcc]
+[18:45:16] [Render thread/INFO]: [FMCC-SELFTEST] screenshot 'config-two-texts' requested
+[18:45:16] [Render thread/INFO]: [FMCC-SELFTEST] PASS screenshot-config-two-texts: ok
+[18:45:16] [Render thread/INFO]: [FMCC-SELFTEST] PASS delete-second-text: clicked '-' on the second text row
+[18:45:16] [Render thread/INFO]: [FMCC-SELFTEST] PASS wait-for-text-shrink: text deleted and persisted, remaining texts=[/seed]
+[18:45:16] [IO-Worker-1/INFO]: [FMCC-SELFTEST] screenshot 'config-two-texts' saved: 已将截图保存为2026-10-24_18.45.16.png (822212 bytes)
+[18:45:16] [Render thread/INFO]: [FMCC-SELFTEST] screenshot 'config-after-delete' requested
+[18:45:16] [Render thread/INFO]: [FMCC-SELFTEST] PASS screenshot-config-after-delete: ok
+[18:45:16] [Render thread/INFO]: [FMCC-SELFTEST] PASS click-back: clicked Back
+[18:45:17] [Render thread/INFO]: [FMCC-SELFTEST] PASS wait-for-menu-return: returned to the menu; entry A texts=[/seed]
+[18:45:17] [IO-Worker-1/INFO]: [FMCC-SELFTEST] screenshot 'config-after-delete' saved: 已将截图保存为2026-10-24_18.45.16_2.png (817802 bytes)
+[18:45:17] [Render thread/INFO]: [FMCC-SELFTEST] PASS click-send-a: clicked send on 'FMCC测Ac6' with texts=[/seed], queue.sentCount before=0, playerInWorld=false
+[18:45:17] [Render thread/INFO]: [FMCC-SELFTEST] SKIP verify-send-queued: no player in a world (title screen): ChatDelivery cannot send, so the message-queue assertion was skipped - the empty-text / not-in-world path was exercised instead
+[18:45:17] [Render thread/INFO]: [FMCC-SELFTEST] PASS wait-queue-drain: title-screen environment: no queue to drain (ChatDelivery cannot send); covered by the in-world run
+[18:45:18] [Render thread/INFO]: [FMCC-SELFTEST] screenshot 'main-after-send' requested
+[18:45:18] [Render thread/INFO]: [FMCC-SELFTEST] PASS screenshot-after-send: screenshot 'main-after-send' 20 ticks after the send click (title-screen not-in-world toast)
+[18:45:18] [Render thread/INFO]: [FMCC-SELFTEST] PASS delete-entry-a: clicked '-' on row 'FMCC测Ac6' (store size before=0)
+[18:45:18] [Render thread/INFO]: [FMCC-SELFTEST] PASS wait-for-entry-a-deleted: entry A deleted; store back to 0 entries
+[18:45:18] [IO-Worker-1/INFO]: [FMCC-SELFTEST] screenshot 'main-after-send' saved: 已将截图保存为2026-10-24_18.45.18.png (802333 bytes)
+[18:45:18] [Render thread/INFO]: [FMCC-SELFTEST] screenshot 'main-empty-after-delete' requested
+[18:45:18] [Render thread/INFO]: [FMCC-SELFTEST] PASS screenshot-main-empty-after-delete: ok
+[18:45:19] [Render thread/INFO]: Loaded 0 FMCC entries from D:\DeepSeek-Harness\FMCC\run-compat\fmcc-config.json
+[18:45:19] [Render thread/INFO]: [FMCC-SELFTEST] PASS verify-store-file: persisted config D:\DeepSeek-Harness\FMCC\run-compat\fmcc-config.json reloads with 0 entries (no self-test leftovers)
+[18:45:19] [Render thread/INFO]: [FMCC-SELFTEST] PASS scenario-complete: all scenario steps passed; writing report and stopping the client
+[18:45:19] [Render thread/INFO]: [FMCC-SELFTEST] scenario finished: PASS (steps=53, pending screenshots=1)
+[18:45:19] [IO-Worker-1/INFO]: [FMCC-SELFTEST] screenshot 'main-empty-after-delete' saved: 已将截图保存为2026-10-24_18.45.19.png (799517 bytes)
+[18:45:19] [Render thread/INFO]: [FMCC-SELFTEST] report written to D:\DeepSeek-Harness\FMCC\run-compat\fmcc-selftest-report.json (53 steps, 50 passed, 0 failed, 3 skipped)
+[18:45:19] [Render thread/INFO]: [FMCC-SELFTEST] RESULT=PASS report=D:\DeepSeek-Harness\FMCC\run-compat\fmcc-selftest-report.json
+[18:45:19] [CullThread/INFO]: [STDOUT]: Shutting down culling task!
+[18:45:19] [Render thread/INFO]: Stopping!
+[18:45:19] [Render thread/INFO]: Saving configuration (client stopping)...

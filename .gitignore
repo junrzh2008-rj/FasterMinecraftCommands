@@ -1,0 +1,35 @@
+# Gradle
+.gradle/
+.gradle-home/
+build/
+out/
+
+# Dev / test run directories
+run/
+run-selftest/
+run-compat/
+logs/
+_probe/
+dist/
+
+# Generated / large local artefacts
+docs/mc-src/
+*.log
+*.tmp
+.upload-token
+local-overrides.gradle
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+bin/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,38 @@
+﻿Compiled from "Text.java"
+public interface net.minecraft.text.Text extends com.mojang.brigadier.Message,net.minecraft.text.StringVisitable {
+  public abstract net.minecraft.text.Style getStyle();
+  public abstract net.minecraft.text.TextContent getContent();
+  public default java.lang.String getString();
+  public default java.lang.String asTruncatedString(int);
+  public abstract java.util.List<net.minecraft.text.Text> getSiblings();
+  public default java.lang.String getLiteralString();
+  public default net.minecraft.text.MutableText copyContentOnly();
+  public default net.minecraft.text.MutableText copy();
+  public abstract net.minecraft.text.OrderedText asOrderedText();
+  public default <T> java.util.Optional<T> visit(net.minecraft.text.StringVisitable$StyledVisitor<T>, net.minecraft.text.Style);
+  public default <T> java.util.Optional<T> visit(net.minecraft.text.StringVisitable$Visitor<T>);
+  public default java.util.List<net.minecraft.text.Text> withoutStyle();
+  public default java.util.List<net.minecraft.text.Text> getWithStyle(net.minecraft.text.Style);
+  public default boolean contains(net.minecraft.text.Text);
+  public static net.minecraft.text.Text of(java.lang.String);
+  public static net.minecraft.text.MutableText literal(java.lang.String);
+  public static net.minecraft.text.MutableText translatable(java.lang.String);
+  public static net.minecraft.text.MutableText translatable(java.lang.String, java.lang.Object...);
+  public static net.minecraft.text.MutableText stringifiedTranslatable(java.lang.String, java.lang.Object...);
+  public static net.minecraft.text.MutableText translatableWithFallback(java.lang.String, java.lang.String);
+  public static net.minecraft.text.MutableText translatableWithFallback(java.lang.String, java.lang.String, java.lang.Object...);
+  public static net.minecraft.text.MutableText empty();
+  public static net.minecraft.text.MutableText keybind(java.lang.String);
+  public static net.minecraft.text.MutableText nbt(java.lang.String, boolean, java.util.Optional<net.minecraft.text.Text>, net.minecraft.text.NbtDataSource);
+  public static net.minecraft.text.MutableText score(net.minecraft.text.ParsedSelector, java.lang.String);
+  public static net.minecraft.text.MutableText score(java.lang.String, java.lang.String);
+  public static net.minecraft.text.MutableText selector(net.minecraft.text.ParsedSelector, java.util.Optional<net.minecraft.text.Text>);
+  public static net.minecraft.text.Text of(java.util.Date);
+  public static net.minecraft.text.Text of(com.mojang.brigadier.Message);
+  public static net.minecraft.text.Text of(java.util.UUID);
+  public static net.minecraft.text.Text of(net.minecraft.util.Identifier);
+  public static net.minecraft.text.Text of(net.minecraft.util.math.ChunkPos);
+  public static net.minecraft.text.Text of(java.net.URI);
+  private static java.util.Optional method_36135(java.util.List, net.minecraft.text.Style, java.lang.String);
+  private static java.util.Optional method_27655(int, java.lang.StringBuilder, java.lang.String);
+}
